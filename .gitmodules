@@ -25,3 +25,6 @@
 [submodule "repos/32blit/32blit-lua"]
 	path = repos/32blit/32blit-lua
 	url = https://github.com/32blit/32blit-lua
+[submodule "repos/lummi01/32Blit-Invader"]
+	path = repos/lummi01/32Blit-Invader
+	url = https://github.com/lummi01/32Blit-Invader
