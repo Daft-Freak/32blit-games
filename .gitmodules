@@ -10,3 +10,6 @@
 [submodule "repos/Daft-Freak/DaftBoy32"]
 	path = repos/Daft-Freak/DaftBoy32
 	url = https://github.com/Daft-Freak/DaftBoy32
+[submodule "repos/32blit/rocks-and-diamonds"]
+	path = repos/32blit/rocks-and-diamonds
+	url = https://github.com/32blit/rocks-and-diamonds
