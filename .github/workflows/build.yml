@@ -68,7 +68,7 @@ jobs:
     - name: Configure CMake
       shell: bash
       working-directory: ${{runner.workspace}}/main/build
-      run: ${{matrix.cmake-prefix}} cmake $GITHUB_WORKSPACE/main -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCPACK_PACKAGE_FILE_NAME=${{env.RELEASE_FILE}} -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache ${{matrix.cmake-args}}
+      run: python3 run-all.py cmake $GITHUB_WORKSPACE/main -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCPACK_PACKAGE_FILE_NAME=${{env.RELEASE_FILE}} -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache ${{matrix.cmake-args}}
 
     # And then run the build itself
     - name: Build
@@ -76,6 +76,6 @@ jobs:
       shell: bash
       run: |
         ccache --zero-stats
-        cmake --build . --config $BUILD_TYPE -j 2
+        python3 run-all.py cmake --build . --config $BUILD_TYPE -j 2
         ccache --show-stats
 
