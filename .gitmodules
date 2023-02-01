@@ -13,3 +13,6 @@
 [submodule "repos/32blit/sprite-editor"]
 	path = repos/32blit/sprite-editor
 	url = https://github.com/32blit/sprite-editor
+[submodule "repos/Daft-Freak/super-blit-kart"]
+	path = repos/Daft-Freak/super-blit-kart
+	url = https://github.com/Daft-Freak/super-blit-kart
