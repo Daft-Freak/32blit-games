@@ -1,3 +1,6 @@
 [submodule "repos/Daft-Freak-32blit-misc"]
 	path = repos/Daft-Freak/32blit-misc
 	url = https://github.com/Daft-Freak/32blit-misc
+[submodule "repos/32blit/picosystem-boilerplate"]
+	path = repos/32blit/picosystem-boilerplate
+	url = https://github.com/32blit/picosystem-boilerplate
