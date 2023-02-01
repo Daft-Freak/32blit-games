@@ -1,10 +1,8 @@
 name: Build
 
 on:
-  push:
-    branches:
-      - '**' # only run on branches
   pull_request:
+  workflow_dispatch:
 
 env:
   BUILD_TYPE: Release
