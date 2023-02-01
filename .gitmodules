@@ -1,3 +1,6 @@
 [submodule "repos/Daft-Freak-32blit-misc"]
 	path = repos/Daft-Freak/32blit-misc
 	url = https://github.com/Daft-Freak/32blit-misc
+[submodule "repos/lummi01/32Blit-Invader"]
+	path = repos/lummi01/32Blit-Invader
+	url = https://github.com/lummi01/32Blit-Invader
