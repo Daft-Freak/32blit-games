@@ -25,3 +25,6 @@
 [submodule "repos/32blit/32blit-lua"]
 	path = repos/32blit/32blit-lua
 	url = https://github.com/32blit/32blit-lua
+[submodule "repos/shane-powell/BlitFlashNet"]
+	path = repos/shane-powell/BlitFlashNet
+	url = https://github.com/shane-powell/BlitFlashNet
