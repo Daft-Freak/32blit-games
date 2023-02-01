@@ -1,3 +1,6 @@
 [submodule "repos/Daft-Freak-32blit-misc"]
 	path = repos/Daft-Freak/32blit-misc
 	url = https://github.com/Daft-Freak/32blit-misc
+[submodule "repos/Loxrie/32blitman"]
+	path = repos/Loxrie/32blitman
+	url = https://github.com/Loxrie/32blitman
