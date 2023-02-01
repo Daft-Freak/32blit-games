@@ -25,3 +25,6 @@
 [submodule "repos/32blit/32blit-lua"]
 	path = repos/32blit/32blit-lua
 	url = https://github.com/32blit/32blit-lua
+[submodule "repos/Loxrie/32blitman"]
+	path = repos/Loxrie/32blitman
+	url = https://github.com/Loxrie/32blitman
