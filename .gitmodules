@@ -7,3 +7,6 @@
 [submodule "repos/mikerr/32blit-games"]
 	path = repos/mikerr/32blit-games
 	url = https://github.com/mikerr/32blit-games
+[submodule "repos/Daft-Freak/DaftBoy32"]
+	path = repos/Daft-Freak/DaftBoy32
+	url = https://github.com/Daft-Freak/DaftBoy32
