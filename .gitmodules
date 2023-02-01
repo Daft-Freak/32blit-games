@@ -19,3 +19,6 @@
 [submodule "repos/Daft-Freak/32BlitDoom"]
 	path = repos/Daft-Freak/32BlitDoom
 	url = https://github.com/Daft-Freak/32BlitDoom
+[submodule "repos/JaDogg/blw4"]
+	path = repos/JaDogg/blw4
+	url = https://github.com/JaDogg/blw4
