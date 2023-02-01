@@ -25,3 +25,6 @@
 [submodule "repos/32blit/32blit-lua"]
 	path = repos/32blit/32blit-lua
 	url = https://github.com/32blit/32blit-lua
+[submodule "repos/Daft-Freak/fourblock-descent"]
+	path = repos/Daft-Freak/fourblock-descent
+	url = https://github.com/Daft-Freak/fourblock-descent
