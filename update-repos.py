@@ -81,12 +81,12 @@ def process_repo(repo_status, repo):
     # switch to branch
     branch_name = repo['nameWithOwner']
     subprocess.run(['git', 'checkout', '-B', branch_name])
+    subprocess.run(['git', 'reset', '--hard', 'main'], cwd=repo_dir)
 
     if not cur_sha: # new repo
         subprocess.run(['git', 'submodule', 'add', repo['url'], repo_dir])
         message = f'Add new repo {repo["nameWithOwner"]}\n\n{new_sha}'
     else:
-        subprocess.run(['git', 'reset', 'main'], cwd=repo_dir)
         message = f'Update repo {repo["nameWithOwner"]}\n\n{cur_sha} -> {new_sha}'
 
     # checkout new sha
@@ -94,7 +94,7 @@ def process_repo(repo_status, repo):
 
     # commit and push
     subprocess.run(['git', 'commit', '-a', '-m', message])
-    subprocess.run(['git', 'push', '--force-with-lease', '-u', 'origin', branch_name])
+    subprocess.run(['git', 'push', '--force', '-u', 'origin', branch_name])
 
     # return to main
     subprocess.run(['git', 'checkout', 'main'])
