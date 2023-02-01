@@ -1,3 +1,6 @@
 [submodule "repos/Daft-Freak-32blit-misc"]
 	path = repos/Daft-Freak/32blit-misc
 	url = https://github.com/Daft-Freak/32blit-misc
+[submodule "repos/Blackhawk-TA/GateKeeper"]
+	path = repos/Blackhawk-TA/GateKeeper
+	url = https://github.com/Blackhawk-TA/GateKeeper
