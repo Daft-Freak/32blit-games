@@ -25,6 +25,9 @@
 [submodule "repos/32blit/32blit-lua"]
 	path = repos/32blit/32blit-lua
 	url = https://github.com/32blit/32blit-lua
+[submodule "repos/Daft-Freak/32blit-mjpeg-player"]
+	path = repos/Daft-Freak/32blit-mjpeg-player
+	url = https://github.com/Daft-Freak/32blit-mjpeg-player
 [submodule "repos/ThePythonator/ArkaBlit"]
 	path = repos/ThePythonator/ArkaBlit
 	url = https://github.com/ThePythonator/ArkaBlit
