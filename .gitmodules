@@ -22,3 +22,6 @@
 [submodule "repos/JaDogg/blw4"]
 	path = repos/JaDogg/blw4
 	url = https://github.com/JaDogg/blw4
+[submodule "repos/32blit/32blit-lua"]
+	path = repos/32blit/32blit-lua
+	url = https://github.com/32blit/32blit-lua
