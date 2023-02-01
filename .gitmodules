@@ -28,3 +28,15 @@
 [submodule "repos/Daft-Freak/32blit-music-player"]
 	path = repos/Daft-Freak/32blit-music-player
 	url = https://github.com/Daft-Freak/32blit-music-player
+[submodule "repos/ahnlak-blit32/sokoblit"]
+	path = repos/ahnlak-blit32/sokoblit
+	url = https://github.com/ahnlak-blit32/sokoblit
+[submodule "repos/Blackhawk-TA/TowerDefense"]
+	path = repos/Blackhawk-TA/TowerDefense
+	url = https://github.com/Blackhawk-TA/TowerDefense
+[submodule "repos/ahnlak-blit32/32blox"]
+	path = repos/ahnlak-blit32/32blox
+	url = https://github.com/ahnlak-blit32/32blox
+[submodule "repos/ThePythonator/Jumpy-Squirrel"]
+	path = repos/ThePythonator/Jumpy-Squirrel
+	url = https://github.com/ThePythonator/Jumpy-Squirrel
