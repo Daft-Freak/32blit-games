@@ -28,3 +28,30 @@
 [submodule "repos/ThePythonator/Waveform-Demo"]
 	path = repos/ThePythonator/Waveform-Demo
 	url = https://github.com/ThePythonator/Waveform-Demo
+[submodule "repos/ThePythonator/Marble-Maze"]
+	path = repos/ThePythonator/Marble-Maze
+	url = https://github.com/ThePythonator/Marble-Maze
+[submodule "repos/shane-powell/advanced-lawnmower-simulator-blit"]
+	path = repos/shane-powell/advanced-lawnmower-simulator-blit
+	url = https://github.com/shane-powell/advanced-lawnmower-simulator-blit
+[submodule "repos/Daft-Freak/32blit-mjpeg-player"]
+	path = repos/Daft-Freak/32blit-mjpeg-player
+	url = https://github.com/Daft-Freak/32blit-mjpeg-player
+[submodule "repos/ThePythonator/ArkaBlit"]
+	path = repos/ThePythonator/ArkaBlit
+	url = https://github.com/ThePythonator/ArkaBlit
+[submodule "repos/Daft-Freak/32blit-music-player"]
+	path = repos/Daft-Freak/32blit-music-player
+	url = https://github.com/Daft-Freak/32blit-music-player
+[submodule "repos/ahnlak-blit32/sokoblit"]
+	path = repos/ahnlak-blit32/sokoblit
+	url = https://github.com/ahnlak-blit32/sokoblit
+[submodule "repos/Blackhawk-TA/TowerDefense"]
+	path = repos/Blackhawk-TA/TowerDefense
+	url = https://github.com/Blackhawk-TA/TowerDefense
+[submodule "repos/ahnlak-blit32/32blox"]
+	path = repos/ahnlak-blit32/32blox
+	url = https://github.com/ahnlak-blit32/32blox
+[submodule "repos/ThePythonator/Jumpy-Squirrel"]
+	path = repos/ThePythonator/Jumpy-Squirrel
+	url = https://github.com/ThePythonator/Jumpy-Squirrel
