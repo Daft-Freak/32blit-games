@@ -1,0 +1,22 @@
+name: Update Repos
+
+on:
+  workflow_dispatch:
+
+
+
+jobs:
+
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+    # Check out the main repo
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - run: python3 update-repos.py
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
