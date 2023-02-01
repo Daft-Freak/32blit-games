@@ -1,3 +1,6 @@
 [submodule "repos/Daft-Freak-32blit-misc"]
 	path = repos/Daft-Freak/32blit-misc
 	url = https://github.com/Daft-Freak/32blit-misc
+[submodule "repos/mikerr/stickman"]
+	path = repos/mikerr/stickman
+	url = https://github.com/mikerr/stickman
