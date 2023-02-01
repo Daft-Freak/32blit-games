@@ -96,6 +96,9 @@ def process_repo(repo_status, repo):
     subprocess.run(['git', 'commit', '-a', '-m', message])
     subprocess.run(['git', 'push', '--force', '-u', 'origin', branch_name])
 
+    # pr
+    subprocess.run(['gh', 'pr', 'create', '--fill'])
+
     # return to main
     subprocess.run(['git', 'checkout', 'main'])
 
