@@ -16,3 +16,6 @@
 [submodule "repos/Daft-Freak/super-blit-kart"]
 	path = repos/Daft-Freak/super-blit-kart
 	url = https://github.com/Daft-Freak/super-blit-kart
+[submodule "repos/Daft-Freak/32BlitDoom"]
+	path = repos/Daft-Freak/32BlitDoom
+	url = https://github.com/Daft-Freak/32BlitDoom
