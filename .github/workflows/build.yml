@@ -25,7 +25,8 @@ jobs:
             name: STM32
             cache-key: stm32
             cmake-args: -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/32blit-sdk/32blit.toolchain
-            apt-packages: ccache gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib python3-setuptools
+            apt-packages: ccache python3-setuptools
+            arm-toolchain: true
 
     runs-on: ${{matrix.os}}
 
@@ -60,10 +61,14 @@ jobs:
         sudo apt update && sudo apt install ${{matrix.apt-packages}}
         pip3 install 32blit
 
-
-    - run: |
-        echo $PWD
-        ls
+    - name: Install ARM Toolchain
+      if: matrix.arm-toolchain
+      working-directory: ${{runner.workspace}}
+      run: |
+        wget -q https://developer.arm.com/-/media/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.tar.bz2
+        tar xf gcc-*.tar.bz2
+        cd gcc*/bin
+        pwd >> $GITHUB_PATH
 
     # Ask cmake to build the makefiles
     - name: Configure CMake
