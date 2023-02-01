@@ -81,6 +81,16 @@ def process_repo(repo_status, repo):
     # switch to branch
     branch_name = repo['nameWithOwner']
     subprocess.run(['git', 'checkout', '-B', branch_name])
+
+    # check if the branch already has this sha
+    if os.path.exists(repo_dir):
+        result = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=repo_dir, capture_output=True)
+        sha = result.stdout.decode().strip()
+
+        if sha == new_sha:
+            subprocess.run(['git', 'checkout', 'main'])
+            return
+
     subprocess.run(['git', 'reset', '--hard', 'main'])
 
     if not cur_sha: # new repo
