@@ -85,7 +85,7 @@ def process_repo(repo_status, repo):
     if not cur_sha: # new repo
         subprocess.run(['git', 'submodule', 'add', repo['url'], repo_dir])
         message = f'Add new repo {repo["nameWithOwner"]}\n\n{new_sha}'
-    else
+    else:
         message = f'Update repo {repo["nameWithOwner"]}\n\n{cur_sha} -> {new_sha}'
 
     # checkout new sha

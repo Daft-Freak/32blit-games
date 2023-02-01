@@ -3,11 +3,8 @@ name: Update Repos
 on:
   workflow_dispatch:
 
-
-
 jobs:
-
-  build:
+  update:
     runs-on: ubuntu-20.04
 
     steps:
