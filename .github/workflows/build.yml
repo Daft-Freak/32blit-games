@@ -60,9 +60,10 @@ jobs:
         sudo apt update && sudo apt install ${{matrix.apt-packages}}
         pip3 install 32blit
 
-    # Set up the cmake build environment
-    - name: Create Build Environment
-      run: cmake -E make_directory ${{runner.workspace}}/main/build
+
+    - run: |
+        echo $PWD
+        ls
 
     # Ask cmake to build the makefiles
     - name: Configure CMake
