@@ -81,7 +81,7 @@ def process_repo(repo_status, repo):
     # switch to branch
     branch_name = repo['nameWithOwner']
     subprocess.run(['git', 'checkout', '-B', branch_name])
-    subprocess.run(['git', 'reset', '--hard', 'main'], cwd=repo_dir)
+    subprocess.run(['git', 'reset', '--hard', 'main'])
 
     if not cur_sha: # new repo
         subprocess.run(['git', 'submodule', 'add', repo['url'], repo_dir])
