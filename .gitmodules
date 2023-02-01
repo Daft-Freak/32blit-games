@@ -1,3 +1,6 @@
 [submodule "repos/Daft-Freak-32blit-misc"]
 	path = repos/Daft-Freak/32blit-misc
 	url = https://github.com/Daft-Freak/32blit-misc
+[submodule "repos/ThePythonator/Super-Square-Bros"]
+	path = repos/ThePythonator/Super-Square-Bros
+	url = https://github.com/ThePythonator/Super-Square-Bros
