@@ -55,3 +55,6 @@
 [submodule "repos/ThePythonator/Jumpy-Squirrel"]
 	path = repos/ThePythonator/Jumpy-Squirrel
 	url = https://github.com/ThePythonator/Jumpy-Squirrel
+[submodule "repos/ThePythonator/Ping"]
+	path = repos/ThePythonator/Ping
+	url = https://github.com/ThePythonator/Ping
