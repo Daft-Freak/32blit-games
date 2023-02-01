@@ -1,3 +1,6 @@
 [submodule "repos/Daft-Freak-32blit-misc"]
 	path = repos/Daft-Freak/32blit-misc
 	url = https://github.com/Daft-Freak/32blit-misc
+[submodule "repos/ahnlak-blit32/possum"]
+	path = repos/ahnlak-blit32/possum
+	url = https://github.com/ahnlak-blit32/possum
