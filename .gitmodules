@@ -25,3 +25,6 @@
 [submodule "repos/32blit/32blit-lua"]
 	path = repos/32blit/32blit-lua
 	url = https://github.com/32blit/32blit-lua
+[submodule "repos/Blackhawk-TA/TowerDefense"]
+	path = repos/Blackhawk-TA/TowerDefense
+	url = https://github.com/Blackhawk-TA/TowerDefense
