@@ -58,6 +58,9 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/shane-powell/blit-boing"]
+	path = repos/shane-powell/blit-boing
+	url = https://github.com/shane-powell/blit-boing
 [submodule "repos/shane-powell/powder-keg"]
 	path = repos/shane-powell/powder-keg
 	url = https://github.com/shane-powell/powder-keg
