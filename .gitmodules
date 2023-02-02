@@ -58,3 +58,6 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/ahnlak-blit32/possum"]
+	path = repos/ahnlak-blit32/possum
+	url = https://github.com/ahnlak-blit32/possum
