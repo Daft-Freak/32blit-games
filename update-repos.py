@@ -80,18 +80,27 @@ def process_repo(repo_status, repo):
 
     # switch to branch
     branch_name = repo['nameWithOwner']
-    subprocess.run(['git', 'checkout', '-B', branch_name])
+    result = subprocess.run(['git', 'checkout', branch_name])
 
-    # check if the branch already has this sha
-    if os.path.exists(repo_dir):
-        result = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=repo_dir, capture_output=True)
-        sha = result.stdout.decode().strip()
+    # checkout failed, create new
+    if result.returncode:
+        result = subprocess.run(['git', 'checkout', '-b', branch_name])
+    else:
+        # check if the branch already has this sha
+        if os.path.exists(repo_dir):
+            result = subprocess.run(['git', 'submodule', 'status', repo_dir], capture_output=True)
 
-        if sha == new_sha:
-            subprocess.run(['git', 'checkout', 'main'])
-            return
+            if result.returncode == 0:
+                print(result.stdout.decode()[1:])
+                sha = result.stdout.decode()[1:].split()[0]
 
-    subprocess.run(['git', 'reset', '--hard', 'main'])
+                print(sha, new_sha)
+
+                if sha == new_sha:
+                    subprocess.run(['git', 'checkout', 'main'])
+                    return
+
+        subprocess.run(['git', 'reset', '--hard', 'main'])
 
     if not cur_sha: # new repo
         subprocess.run(['git', 'submodule', 'add', repo['url'], repo_dir])
