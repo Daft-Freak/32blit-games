@@ -58,3 +58,6 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/mikerr/stickman"]
+	path = repos/mikerr/stickman
+	url = https://github.com/mikerr/stickman
