@@ -91,10 +91,7 @@ def process_repo(repo_status, repo):
             result = subprocess.run(['git', 'submodule', 'status', repo_dir], capture_output=True)
 
             if result.returncode == 0:
-                print(result.stdout.decode()[1:])
                 sha = result.stdout.decode()[1:].split()[0]
-
-                print(sha, new_sha)
 
                 if sha == new_sha:
                     subprocess.run(['git', 'checkout', 'main'])
