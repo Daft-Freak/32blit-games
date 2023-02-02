@@ -83,5 +83,5 @@ jobs:
       run: |
         ccache --zero-stats
         python3 ./run-all.py cmake --build build --config $BUILD_TYPE -j 2
-        ccache --show-stats
+        ccache --show-stats -v
 
