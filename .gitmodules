@@ -55,6 +55,9 @@
 [submodule "repos/ThePythonator/Jumpy-Squirrel"]
 	path = repos/ThePythonator/Jumpy-Squirrel
 	url = https://github.com/ThePythonator/Jumpy-Squirrel
+[submodule "repos/ali1234/32blit-mptest"]
+	path = repos/ali1234/32blit-mptest
+	url = https://github.com/ali1234/32blit-mptest
 [submodule "repos/shane-powell/dungeon-tile"]
 	path = repos/shane-powell/dungeon-tile
 	url = https://github.com/shane-powell/dungeon-tile
