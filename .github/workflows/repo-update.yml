@@ -23,6 +23,7 @@ jobs:
           git config --global user.name $GITHUB_ACTOR
           git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git config --global advice.detachedHead false
+          git fetch
 
     - run: python3 update-repos.py
       env:
