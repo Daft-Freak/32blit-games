@@ -82,6 +82,6 @@ jobs:
       working-directory: ${{github.workspace}}/main
       run: |
         ccache --zero-stats
-        python3 ./run-all.py cmake --build build --config $BUILD_TYPE -j 2
+        python3 ./run-all.py cmake --build build --config $BUILD_TYPE
         ccache --show-stats -v
 
