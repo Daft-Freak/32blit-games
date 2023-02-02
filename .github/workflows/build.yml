@@ -19,13 +19,13 @@ jobs:
             name: Linux
             cache-key: linux
             cmake-args: -D32BLIT_DIR=$GITHUB_WORKSPACE/32blit-sdk
-            apt-packages: ccache libsdl2-dev libsdl2-image-dev libsdl2-net-dev
+            apt-packages: ccache ninja-build libsdl2-dev libsdl2-image-dev libsdl2-net-dev
 
           - os: ubuntu-22.04
             name: STM32
             cache-key: stm32
             cmake-args: -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/32blit-sdk/32blit.toolchain
-            apt-packages: ccache
+            apt-packages: ccache ninja-build
             arm-toolchain: true
 
     runs-on: ${{matrix.os}}
@@ -74,7 +74,7 @@ jobs:
     - name: Configure CMake
       shell: bash
       working-directory: ${{github.workspace}}/main
-      run: python3 ./run-all.py cmake -B build -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache ${{matrix.cmake-args}}
+      run: python3 ./run-all.py cmake -B build -GNinja -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache ${{matrix.cmake-args}}
 
     # And then run the build itself
     - name: Build
