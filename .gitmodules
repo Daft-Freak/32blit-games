@@ -25,6 +25,9 @@
 [submodule "repos/32blit/32blit-lua"]
 	path = repos/32blit/32blit-lua
 	url = https://github.com/32blit/32blit-lua
+[submodule "repos/lummi01/32Blit-Yoto"]
+	path = repos/lummi01/32Blit-Yoto
+	url = https://github.com/lummi01/32Blit-Yoto
 [submodule "repos/ThePythonator/PolyBlit"]
 	path = repos/ThePythonator/PolyBlit
 	url = https://github.com/ThePythonator/PolyBlit
