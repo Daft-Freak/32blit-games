@@ -58,3 +58,6 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/lummi01/32Blit-Pitfall-Harry"]
+	path = repos/lummi01/32Blit-Pitfall-Harry
+	url = https://github.com/lummi01/32Blit-Pitfall-Harry
