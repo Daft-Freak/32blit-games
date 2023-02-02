@@ -25,6 +25,9 @@
 [submodule "repos/32blit/32blit-lua"]
 	path = repos/32blit/32blit-lua
 	url = https://github.com/32blit/32blit-lua
+[submodule "repos/lummi01/32Blit-SimonSays"]
+	path = repos/lummi01/32Blit-SimonSays
+	url = https://github.com/lummi01/32Blit-SimonSays
 [submodule "repos/lummi01/32Blit-Snake"]
 	path = repos/lummi01/32Blit-Snake
 	url = https://github.com/lummi01/32Blit-Snake
