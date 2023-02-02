@@ -19,13 +19,13 @@ jobs:
             name: Linux
             cache-key: linux
             cmake-args: -D32BLIT_DIR=$GITHUB_WORKSPACE/32blit-sdk
-            apt-packages: ccache libsdl2-dev libsdl2-image-dev libsdl2-net-dev python3-setuptools
+            apt-packages: ccache libsdl2-dev libsdl2-image-dev libsdl2-net-dev
 
           - os: ubuntu-20.04
             name: STM32
             cache-key: stm32
             cmake-args: -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/32blit-sdk/32blit.toolchain
-            apt-packages: ccache python3-setuptools
+            apt-packages: ccache
             arm-toolchain: true
 
     runs-on: ${{matrix.os}}
