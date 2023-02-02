@@ -58,3 +58,6 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/johnmccabe/32blit-docker"]
+	path = repos/johnmccabe/32blit-docker
+	url = https://github.com/johnmccabe/32blit-docker
