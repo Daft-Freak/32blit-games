@@ -28,3 +28,78 @@
 [submodule "repos/lummi01/32Blit-Yoto"]
 	path = repos/lummi01/32Blit-Yoto
 	url = https://github.com/lummi01/32Blit-Yoto
+[submodule "repos/ThePythonator/PolyBlit"]
+	path = repos/ThePythonator/PolyBlit
+	url = https://github.com/ThePythonator/PolyBlit
+[submodule "repos/lummi01/32Blit-SimonSays"]
+	path = repos/lummi01/32Blit-SimonSays
+	url = https://github.com/lummi01/32Blit-SimonSays
+[submodule "repos/lummi01/32Blit-Snake"]
+	path = repos/lummi01/32Blit-Snake
+	url = https://github.com/lummi01/32Blit-Snake
+[submodule "repos/lummi01/32Blit-Cannonhead"]
+	path = repos/lummi01/32Blit-Cannonhead
+	url = https://github.com/lummi01/32Blit-Cannonhead
+[submodule "repos/ahnlak-blit32/blitroids"]
+	path = repos/ahnlak-blit32/blitroids
+	url = https://github.com/ahnlak-blit32/blitroids
+[submodule "repos/32blit/snake"]
+	path = repos/32blit/snake
+	url = https://github.com/32blit/snake
+[submodule "repos/ahnlak-blit32/blittris"]
+	path = repos/ahnlak-blit32/blittris
+	url = https://github.com/ahnlak-blit32/blittris
+[submodule "repos/Daft-Freak/fourblock-descent"]
+	path = repos/Daft-Freak/fourblock-descent
+	url = https://github.com/Daft-Freak/fourblock-descent
+[submodule "repos/ThePythonator/Waveform-Demo"]
+	path = repos/ThePythonator/Waveform-Demo
+	url = https://github.com/ThePythonator/Waveform-Demo
+[submodule "repos/ThePythonator/Marble-Maze"]
+	path = repos/ThePythonator/Marble-Maze
+	url = https://github.com/ThePythonator/Marble-Maze
+[submodule "repos/shane-powell/advanced-lawnmower-simulator-blit"]
+	path = repos/shane-powell/advanced-lawnmower-simulator-blit
+	url = https://github.com/shane-powell/advanced-lawnmower-simulator-blit
+[submodule "repos/Daft-Freak/32blit-mjpeg-player"]
+	path = repos/Daft-Freak/32blit-mjpeg-player
+	url = https://github.com/Daft-Freak/32blit-mjpeg-player
+[submodule "repos/ThePythonator/ArkaBlit"]
+	path = repos/ThePythonator/ArkaBlit
+	url = https://github.com/ThePythonator/ArkaBlit
+[submodule "repos/Daft-Freak/32blit-music-player"]
+	path = repos/Daft-Freak/32blit-music-player
+	url = https://github.com/Daft-Freak/32blit-music-player
+[submodule "repos/ahnlak-blit32/sokoblit"]
+	path = repos/ahnlak-blit32/sokoblit
+	url = https://github.com/ahnlak-blit32/sokoblit
+[submodule "repos/Blackhawk-TA/TowerDefense"]
+	path = repos/Blackhawk-TA/TowerDefense
+	url = https://github.com/Blackhawk-TA/TowerDefense
+[submodule "repos/ahnlak-blit32/32blox"]
+	path = repos/ahnlak-blit32/32blox
+	url = https://github.com/ahnlak-blit32/32blox
+[submodule "repos/ThePythonator/Jumpy-Squirrel"]
+	path = repos/ThePythonator/Jumpy-Squirrel
+	url = https://github.com/ThePythonator/Jumpy-Squirrel
+[submodule "repos/ali1234/32blit-mptest"]
+	path = repos/ali1234/32blit-mptest
+	url = https://github.com/ali1234/32blit-mptest
+[submodule "repos/shane-powell/dungeon-tile"]
+	path = repos/shane-powell/dungeon-tile
+	url = https://github.com/shane-powell/dungeon-tile
+[submodule "repos/ThePythonator/Ping"]
+	path = repos/ThePythonator/Ping
+	url = https://github.com/ThePythonator/Ping
+[submodule "repos/lummi01/32Blit-Pitfall-Harry"]
+	path = repos/lummi01/32Blit-Pitfall-Harry
+	url = https://github.com/lummi01/32Blit-Pitfall-Harry
+[submodule "repos/shane-powell/blit-boing"]
+	path = repos/shane-powell/blit-boing
+	url = https://github.com/shane-powell/blit-boing
+[submodule "repos/shane-powell/powder-keg"]
+	path = repos/shane-powell/powder-keg
+	url = https://github.com/shane-powell/powder-keg
+[submodule "repos/ali1234/32blit-hxcmodplayer"]
+	path = repos/ali1234/32blit-hxcmodplayer
+	url = https://github.com/ali1234/32blit-hxcmodplayer
