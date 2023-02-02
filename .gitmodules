@@ -58,3 +58,6 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/32blit/32blit-sdk"]
+	path = repos/32blit/32blit-sdk
+	url = https://github.com/32blit/32blit-sdk
