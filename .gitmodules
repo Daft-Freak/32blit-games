@@ -61,3 +61,12 @@
 [submodule "repos/lummi01/32Blit-Pitfall-Harry"]
 	path = repos/lummi01/32Blit-Pitfall-Harry
 	url = https://github.com/lummi01/32Blit-Pitfall-Harry
+[submodule "repos/shane-powell/blit-boing"]
+	path = repos/shane-powell/blit-boing
+	url = https://github.com/shane-powell/blit-boing
+[submodule "repos/shane-powell/powder-keg"]
+	path = repos/shane-powell/powder-keg
+	url = https://github.com/shane-powell/powder-keg
+[submodule "repos/ali1234/32blit-hxcmodplayer"]
+	path = repos/ali1234/32blit-hxcmodplayer
+	url = https://github.com/ali1234/32blit-hxcmodplayer
