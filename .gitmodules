@@ -58,3 +58,6 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/32blit/rocks-and-diamonds"]
+	path = repos/32blit/rocks-and-diamonds
+	url = https://github.com/32blit/rocks-and-diamonds
