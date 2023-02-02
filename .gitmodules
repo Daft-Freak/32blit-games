@@ -58,3 +58,6 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/ali1234/32blit-hxcmodplayer"]
+	path = repos/ali1234/32blit-hxcmodplayer
+	url = https://github.com/ali1234/32blit-hxcmodplayer
