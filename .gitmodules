@@ -58,3 +58,6 @@
 [submodule "repos/ThePythonator/Ping"]
 	path = repos/ThePythonator/Ping
 	url = https://github.com/ThePythonator/Ping
+[submodule "repos/deckerego/picomatch-3"]
+	path = repos/deckerego/picomatch-3
+	url = https://github.com/deckerego/picomatch-3
